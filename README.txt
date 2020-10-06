@@ -7,15 +7,14 @@ incorrect answers that may not be easily identified. It is the
 responsibility of the SuperDARN P.I.s to insure that the hdw.dat files
 for their radars are correct and that these files are updated as
 required to accurately represent the physical state of the radar and
-that copies of these files are retained under revision control by Rob
-Barnes. Revision controlled versions of hdw.dat files are destributed
-with SuperDARN radar control software and with analysis software.
+that copies of these files are retained under revision control by the
+Data Standards Working Group.
 
 The hardware parameters are distributed as a string of values
 delineated by one or more spaces. The following table specifies the
 parameters, their units, and a brief description of their meaning.
 
-01) Station ID (unique numerical value). Assigned by Rob Barnes.
+01) Station ID (unique numerical value).
 02) Last year that parameter string is valid. (4 digit year).
 03) Last second of year that parameter string is valid (range 0 to
     34163999 for non-leap years). The parameter string giving the current
